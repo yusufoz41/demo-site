@@ -93,14 +93,14 @@ nav a {
 }
 
 .card-left {
-    top: -40px;
-    left: -40px;
+    top: px;
+    left: 500px;
     width: 100px;
 }
 
 .phone {
-    top: 60px;
-    left: 80px;
+    top: 65px;
+    left: 580px;
     width: 80px;
 }
 

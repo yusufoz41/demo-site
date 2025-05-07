@@ -92,10 +92,15 @@ nav a {
     animation: float 3s ease-in-out infinite;
 }
 
-.card-left {
-    top: px;
-    left: 500px;
-    width: 100px;
+.card-left,
+.phone,
+.bell,
+.card-right {
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    position: absolute;
+    animation: float 3s ease-in-out infinite;
 }
 
 .phone {
@@ -110,10 +115,16 @@ nav a {
     width: 90px;
 }
 
+.card-left,
+.phone,
+.bell,
 .card-right {
-    bottom: 0;
-    right: 40px;
-    width: 110px;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    position: absolute;
+    animation: float 3s ease-in-out infinite;
+
 }
 
 @keyframes float {
